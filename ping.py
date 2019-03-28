@@ -4,10 +4,14 @@
 # cuando el trafico aumenta:  practica 4 de enfasis3 de la UNICAUCA
 # Author:       Rafael Alejandro Belalcazar Burbano
 # Date:         15-03-2019
-
+import threading
 import os
+
+# El numero de pings del requerimiento
+NUM_HILOS = 100
+
 def ping(ip):
-  response = os.system("ping -c 32 " + ip + " >test%s.txt"%i)
+  response = os.system("ping -c 32 " + ip + " >test%s.txt"%eachHilo)
 
   #and then check the response...
   if response == 0:
@@ -15,5 +19,11 @@ def ping(ip):
   else:
     print (ip, 'is down!')
 
-for i in range(1,33):
+
+def validStatic():
   ping("google.com")
+
+# Este ciclo for simula los usuarios(Crea pings casi simultaneos)
+for eachHilo in range(NUM_HILOS):
+    hilo = threading.Thread(name='hilo%s' %eachHilo,target=validStatic)
+    hilo.start()
