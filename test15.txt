@@ -1,0 +1,15 @@
+PING google.com (172.217.15.206) 56(84) bytes of data.
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=1 ttl=52 time=117 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=2 ttl=52 time=111 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=3 ttl=52 time=112 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=4 ttl=52 time=112 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=5 ttl=52 time=109 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=6 ttl=52 time=134 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=7 ttl=52 time=114 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=8 ttl=52 time=113 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=9 ttl=52 time=111 ms
+64 bytes from mia09s20-in-f14.1e100.net (172.217.15.206): icmp_seq=10 ttl=52 time=112 ms
+
+--- google.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 29ms
+rtt min/avg/max/mdev = 108.876/114.544/134.444/6.958 ms
